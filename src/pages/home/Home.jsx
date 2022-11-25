@@ -11,7 +11,7 @@ import NavBar from './../../components/nav-bar/NavBar'
 const Home = () => {
     return (
         <div className=''>
-            <div className='w-5/6 mx-auto'>
+            <div className='w-11/12 lg:w-5/6 mx-auto'>
                 <NavBar />
                 <Hero />
                 <HotDeals />
