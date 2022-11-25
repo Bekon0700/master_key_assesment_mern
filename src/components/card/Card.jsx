@@ -4,7 +4,7 @@ const Card = ({ cardData }) => {
     const { price, discount, picture, name } = cardData
     console.log(cardData)
     return (
-        <div className='w-11/12'>
+        <div className='w-11/12 mx-auto'>
             <img src={picture} alt="" className='w-[235px] h-[235px] mx-auto' />
             <div className='flex flex-col gap-3 justify-between'>
                 <p className='text-base font-medium h-12'>{name}</p>

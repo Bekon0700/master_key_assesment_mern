@@ -4,7 +4,7 @@ import Hero from '../../components/hero/Hero'
 import NavBar from './../../components/nav-bar/NavBar'
 const Home = () => {
   return (
-    <div>
+    <div className=''>
         <NavBar />
         <Hero />
     </div>
