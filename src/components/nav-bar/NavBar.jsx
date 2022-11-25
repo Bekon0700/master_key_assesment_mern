@@ -51,7 +51,7 @@ const NavBar = () => {
                         <p className='text-base font-medium'>Sign in</p>
                     </div>
                 </div>
-                <div className='w-1/2 border flex justify-between items-center rounded-2xl px-3'>
+                <div className='w-full border flex justify-between items-center rounded-2xl px-3 py-3'>
                     <input type="text" placeholder='search' className='border-none outline-none text-lg' />
                     <CiSearch className='text-2xl' />
                 </div>
